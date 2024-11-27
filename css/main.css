@@ -1,0 +1,55 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+    color: #4a2c2c; /* Darker text color for better contrast */
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem; /* Larger header text */
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333; /* Dark background for navigation */
+    text-align: center;
+    padding: 20px 0; /* Increase padding for a bigger navigation bar */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centers the navigation items */
+}
+
+nav ul li {
+    margin: 0 20px; /* Increased spacing between links */
+    display: inline;
+}
+
+nav ul li a {
+    padding: 15px 20px; /* Bigger clickable area */
+    color: white; /* Contrast-friendly text color */
+    text-decoration: none; /* Removes underline */
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 1.5rem; /* Larger font size for better visibility */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Subtle hover effect */
+    border-radius: 5px; /* Rounded edges for hover effect */
+}
